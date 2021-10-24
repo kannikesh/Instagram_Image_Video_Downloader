@@ -62,6 +62,11 @@ ImageDownloader.downloadImage(Context, Post URL);
 ```java
 VideoDownloader.downloadVideo(Context, Post URL);
 ```
+If you want to make your directory then use:
+
+```java
+VideoDownloader.downloadVideo(Context, Reels/IGTV video url, your directory name); // it'll create new folder in gallery with provided directory name.
+```
 
 You are free to contribute here. This is first version. I'll add more awesome updates in near future.
 
