@@ -1,5 +1,5 @@
 # Insta Downloader 
-Simple Instagram Image Video Downloader Library
+Simple Instagram Image Video Downloader Library for Android
 
 >Step 1. Add the JitPack repository to your build file
 
