@@ -74,7 +74,9 @@ You are free to contribute here. This is first version. I'll add more awesome up
 
 ## Connect with me
 If you have any difficulty then just message me on Instagram or Telegram.
+
 [![](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/kannikesh_prabhu/)
+
 [![](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/GodKannikesh)
 
 ## LICENSE
