@@ -1,9 +1,15 @@
 # Insta Downloader 
 Simple Instagram Image Video Downloader Library for Android
 
+[![JitPack](https://jitpack.io/v/kannikesh/Instagram_Image_Video_Downloader.svg)](https://jitpack.io/#kannikesh/Instagram_Image_Video_Downloader)
+
+## Implementation
+
 >Step 1. Add the JitPack repository to your build file
 
-```gradle
+Add it in your root build.gradle at the end of repositories:
+
+```bash
     	allprojects {
 		repositories {
 			...
@@ -14,9 +20,9 @@ Simple Instagram Image Video Downloader Library for Android
 
 >Step 2. Add the dependency
 
-```gradle
+```bash
 
-dependencies {
+	dependencies {
 	        implementation 'com.github.kannikesh:Instagram_Image_Video_Downloader:Tag'
 	}
 
@@ -24,7 +30,8 @@ dependencies {
 
 >Step 3. Add the following permissions in the Manifest file.
 
-```    <uses-permission android:name="android.permission.INTERNET"/>
+```xml
+    <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -32,7 +39,7 @@ dependencies {
 
 >Step 4. Don't forget to ask storage permissions. Add the following code in your MainActivity.
 
-```
+```java
 if (Build.VERSION.SDK_INT >= 23) {
             if (checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
                     == PackageManager.PERMISSION_GRANTED) {
@@ -46,6 +53,16 @@ if (Build.VERSION.SDK_INT >= 23) {
 
 ```
 
->Step 5. Usage
+## Usage
+```java
+ImageDownloader.downloadImage(Context, Post URL);
+```
+>OR
 
-```InstagramImages.downloadImage(Context, Post URL) ```
+```java
+VideoDownloader.downloadVideo(Context, Post URL);
+```
+
+You are free to contribute here. This is first version. I'll add more awesome updates in near future.
+
+### Made with ❤️ by Kannikesh
