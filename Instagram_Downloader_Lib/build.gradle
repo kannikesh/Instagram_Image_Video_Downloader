@@ -46,7 +46,7 @@ afterEvaluate {
 
                 groupId = 'com.github.kannikesh'
                 artifactId = 'Instagram_Image_Video_Downloader'
-                version = "1.0.0"
+                version = "1.2"
             }
         }
     }
